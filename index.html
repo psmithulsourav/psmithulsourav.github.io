@@ -2,12 +2,41 @@
 <html>
 <head>
 	<title>P S Mithul Sourav|PROGRAMMER</title>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.
+development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.
+development.js"></script>
   <meta charset=“UTF-8”>
 	<link rel="shortcut icon" href="/ico.ico" />
 	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-
+<script>
+function start() {
+const rootElement =
+React.createElement("nav",{ classname : "menu" },
+React.createElement("ul", {classname : "menu" },
+React.createElement("li", { },
+React.createElement("a", {href : "/aboutme.html" }, "01.About Me")
+),
+React.createElement("li", { },
+React.createElement("a", {href : "/apps.html" }, "02.Apps")
+),
+React.createElement("li", { },
+React.createElement("a", {href : "/simulations.html" }, "03.Simulations")
+),
+React.createElement("li", { },
+React.createElement("a", {href : "/resume.html" }, "04.Resume")
+),
+React.createElement("li", { },
+React.createElement("a", {href : "/contact.html" }, "05.Contact")
+)
+)
+)
+ReactDOM.render(rootElement,
+document.getElementById("mainContainer")
+);
+}
+</script>
 <style type="text/css">
       body {
   background-color: #051622;
@@ -118,22 +147,21 @@ h1 span:nth-child(14) {
       0 50px 25px rgba(0, 0, 0, 0.2);
   }
 }
-     .menu{
+nav{
       display: block;
       padding-top: 0.1%;
       padding-left: 46%;
-      font-family: 'Hanalei', cursive;
+      font-family: monospace;
       font-size: 110%;
       position: relative;
       text-decoration: none;
       font-size: 1.3em;
-      
      }
-    .menu li{
+li{
               display: inline;
               padding: 0.4em;
      }
-     .menu ul {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -184,16 +212,8 @@ h1 span:nth-child(14) {
 </style>
 
 </head>
-<body>
-	<nav class="menu">
-<ul>
-<li><a href="/aboutme"><b>01.About</b></a></li>
-<li><a href="/simulations"><b>02.Simulations</b></a></li>
-<li><a href="/contact"><b>03.Contact</b></a></li>
-<li><a href="/apps"><b>04.Apps</b></a></li>
-<li><a href="/resume"><b>05.Resume</b></a></li>
-</ul>
-</nav>
+<body onLoad="start();">
+<div id="mainContainer"></div>	
 <div>
 <h1>
   <span>M</span>
