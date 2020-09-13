@@ -128,7 +128,7 @@ ul {
 }
      a{
        text-decoration: none;
-       color: #1BA098;
+       color: #cf0606;
       }
       /**custom scroll bar**/
 ::-webkit-scrollbar {
@@ -412,7 +412,7 @@ button {
   vertical-align: top;
   margin: 0 15px;
   border: 1px solid #181828;
-  color: #181828;
+  color: #cc0000;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
