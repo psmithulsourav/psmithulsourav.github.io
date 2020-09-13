@@ -154,20 +154,10 @@ ul {
     top: 0px;
     display: none;
   }
-
-  .snowflake {
-    position: fixed;
-    background-color: #FFFFFF;
-    user-select: none;
-    z-index: 10000;
-    pointer-events: none;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-  }  
+ 
   #aboutme {
   position: relative;
-  background: rgb(0,0,0);
+  background: rgb(250, 0, 0);
   } 
 
 
@@ -201,7 +191,7 @@ a {
   vertical-align: baseline;
   background: transparent;
   text-decoration: none;
-  color: #000;
+  color: rgb(233, 18, 18);
 }
 
 input, select, button, textarea {
