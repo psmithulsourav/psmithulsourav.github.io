@@ -2,7 +2,7 @@ import Link from "next/link";
 function Hero(){
 return(
 
-  <div></div>
+  <img className=""src="../public/pfp.png"alt=""/>
 )
 
  

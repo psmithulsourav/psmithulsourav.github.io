@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className="max-w-7xl mx-auto ">
       <Head>
         <title>P S Mithul SOurav</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://github.com/psmithulsourav/psmithulsourav.github.io/blob/main/version-2/public/pfp_nobg.svg?raw=true" />
       </Head>
 
       <Header />

@@ -1,10 +1,10 @@
 import Link from "next/link";
 function Header() {
   return (
-    <header className="flex align-right justify-between p-5 max-w-7xl mx-auto">
+    <header className="flex align-right justify-between p-5 max-w-7xl mx-auto ">
     <div className="flex items-center">
     <Link href="/">  
-      <img className="w-44 object-contain cursor-pointer"src=""alt="coming soon"/>
+       <img className="w-20 object-contain cursor-pointer "src="https://github.com/psmithulsourav/psmithulsourav.github.io/blob/main/version-2/public/pfp_nobg.png?raw=true"alt=""/>
     </Link>
       
     </div>
