@@ -15,7 +15,7 @@ const Home: NextPage = () => {
   
   <div className="bg-cover bg-center bg-[#041c34] overlow-hidden">
       <Header />
-  
+  <img className="-z-50 bg-fixed bg-cover bg-center"src="https://github.com/psmithulsourav/psmithulsourav.github.io/blob/main/version-2/public/moon.png?raw=true"/>
       <Hero />
   </div>
 </div>
